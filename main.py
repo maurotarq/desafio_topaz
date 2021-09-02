@@ -179,6 +179,6 @@ def run_servers(new_users, task_time, max_users, output_file):
 
 
 if __name__ == '__main__':
-    data_input = input_data('test_input2.txt')
+    data_input = input_data('input.txt')
 
     run_servers(data_input['new_users'], data_input['task_time'], data_input['max_users'], 'output.txt')
